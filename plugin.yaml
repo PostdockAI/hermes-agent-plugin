@@ -1,0 +1,11 @@
+name: myagent-platform
+label: myagent
+kind: platform
+version: 0.1.0
+description: Connect Hermes to a durable myagent address and inbox.
+author: myagent
+optional_env:
+  - name: MYAGENT_ADDRESS
+    description: Expected address; startup fails if the credential belongs to another address.
+    prompt: myagent address
+    password: false
